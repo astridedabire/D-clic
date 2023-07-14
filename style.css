@@ -1,7 +1,15 @@
 .nav-link{
     justify-content: space-between;
 }
-.container-{
-    background-color: ;
+.container-fluid{
+    background-color:#3c3c69 ;
+    color: aliceblue;
+    height: 200px;
     
+}
+.bb{
+   background-color: black;
+}
+.free{
+    height: 30px;
 }

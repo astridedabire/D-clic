@@ -23,9 +23,9 @@
 
     <div class="d-flex  text-center text-bg-dark">
         <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
-            <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme"
-                type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)">
-                <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+            <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme"></button>
+            
+            <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
             </button>
             <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
                 <li>
@@ -50,16 +50,16 @@
         </div>
 
 
-        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <div class=" d-flex w-100 h-100 p-3 mx-auto flex-column vh-60">
             <header class="mb-auto">
                 <div>
                     <h3 class="float-md-start mb-0">Global Site</h3>
                     <nav class="nav nav-masthead justify-content-center float-md-end">
-                        <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link fw-bold py-1 px-0" href="#">About</a>
-                        <a class="nav-link fw-bold py-1 px-0" href="#">Explore</a>
-                        <a class="nav-link fw-bold py-1 px-0" href="#">Contact</a>
-                        <a class="nav-link fw-bold py-1 px-0" href="#">Book</a>
+                        <a class="nav-link fw-bold py-1 px-2 active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link fw-bold py-1 px-2" href="#">About</a>
+                        <a class="nav-link fw-bold py-1 px-2" href="#">Explore</a>
+                        <a class="nav-link fw-bold py-1 px-2" href="#">Contact</a>
+                        <a class="nav-link fw-bold py-1 px-2" href="#">Book</a>
 
                     </nav>
                 </div>
@@ -279,10 +279,10 @@
             </p>
         </div>
     </section>
-    <section>
-        <div class="container ">
+    <section class="container-fluid">
+        <div class="container-two">
             <div>
-                <h2 class="text-center">JOIN OUR NEWSLETTER FOR DEALS AND UPDATES AND OFFERS</h2>
+                <h2 class="text-center">JOIN OUR NEWSLETTER FOR DEALS AND UPDATES AND OFFERS</h2> <br><br>
                 <div class="d-flex justify-content-center align-items-center">
                     <form>
                         <div class="row">
@@ -290,8 +290,8 @@
                                 <div class="input-group input-group">
                                     <input type="text" class="form-control" id="mail" placeholder="your Email">
                                     <div class="input-group-append">
-                                        <button class="btn btn-success">Join Now</button>
-                                    </div>
+                                        <button class="btn btn-success">Join Now</button> 
+                                    </div> 
                                 </div>
                             </div>
                         </div>
@@ -301,18 +301,19 @@
             </div>
         </div>
     </section>
-    
-    <div class="container-one">
-        <footer class="py-3 my-4">
-          <ul class="nav justify-content-center pb-3 mb-3">
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQ</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">EXPERIENCE</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">EXPLORE</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">CONTACTS</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">BOOK NOW</a></li>
-          </ul>
-        </footer>
-      </div>
+    <section class="bb">
+        <div class="container-one">
+            <footer class="py-3 my-">
+                <ul class="nav justify-content-center pb-3 mb-3">
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQ</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">EXPERIENCE</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">EXPLORE</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">CONTACTS</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">BOOK NOW</a></li>
+                </ul>
+            </footer>
+        </div>
+    </section>
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
 
